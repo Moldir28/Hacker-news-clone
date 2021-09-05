@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.header {
+    background-color:
+    #ff6600;
+    display: flex;
+    width: 100%;
+    height: auto; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 25px;
+    width: 25x;
+    border: 2px solid white; 
+    margin: 3px 3px;
+}
+
+.title {
+   font-size:14px; 
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navLink {
+    text-decoration: none;
+    font-size: 12px; 
+    color: black; 
+    margin: auto 5px;
+    border-right: 2px solid black;
+    padding-right: 10px; 
+}
+
+#navLinkLogin {
+    text-decoration: none;
+    font-size: 12px; 
+    color: black; 
+    margin-right: 5px;
+}

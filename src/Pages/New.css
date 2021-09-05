@@ -1,0 +1,29 @@
+.article {
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 25px;   
+    font-size: 13px;
+    font-family: serif;   
+    position: relative;
+}
+
+.list {
+    margin: 5px auto; 
+    font-size: 14px;
+    font-family: sans-serif;
+
+}
+
+.list p {
+    padding: 10px auto;
+    color: gray;
+    font-size: 12px;
+}
+
+.url {
+    color: gray; 
+    font-size: 12px;
+}
